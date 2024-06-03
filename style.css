@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left_side{
+    padding: 15px 15px;
+}
+
+.left_side > h1{
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+span{
+    margin-left: 40px;
+    margin-right: 20px;
+    justify-content: center;
+}
+
+
+span:hover{
+    color: coral;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(yellow, blue, green);
+    cursor: pointer;
+}
+
+
+
+.uper_side{
+    height: 40%;
+    width: 100%;
+    background-color: rgba(250, 235, 215, 0.712);
+}
+
+
+.center{
+    align-items: center;
+}
+.center > h1{
+    padding-left: 40%;
+    padding-top: 40px;
+
+}
+
+.center > p{
+    width: 70%;
+    padding-left: 35%;
+    padding-top: 10px;
+}
+
+button{
+    height: 50px;
+    width: 100px;
+    margin-top: 2vmax;
+    margin-left: 48vmax;
+    border-radius: 50vmax;
+    background-color: rgba(32, 218, 32, 0.767);
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button:hover{
+    background-color: rgba(218, 32, 218, 0.589);
+    color: white;
+    transition: cubic-bezier(0.25, 0.46, 0.45, 0.94)
+}
+
+
+.lower_side{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.lower_side > .left_side{
+    height: 100%;
+    width: 60%;
+}
+
+.lower_side > .left_side > #About{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 60px;
+    color: rgba(95, 158, 160, 0.671);
+}
+
+.lower_side > .left_side > #heading{
+    width: 70%;
+    margin-left: 90px;
+    margin-top: 80px;
+    font-size: 40px;
+}
+
+.lower_side > .left_side > #para{
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+.lower_side > .right_side{
+    height: 100%;
+    width: 40%;
+    background-image: url(https://images.unsplash.com/photo-1520201163981-8cc95007dd2a?auto=format&fit=crop&q=80&w=1374&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+
+
+    
+    /* <-----------page2---------------> */
+
+
+ .page2{
+    width: 100%;
+    height: 100%;
+    /* border: 5px  solid green; */
+ }   
+
+.page2 #heading {
+    padding-left: 35vmax;
+    margin-top: 5vmax;
+    font-size: 4vmax;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+.page2 #heading:hover{
+    color: rgba(220, 20, 60, 0.658);
+    background: linear-gradient(black,rgba(0, 128, 0, 0.692), rgba(255, 255, 0, 0.712));
+}
+
+
+.photos{
+    display: flex;
+    position: relative;
+}
+
+.page2 .photos .image1 img {
+    height:17vmax;
+    width: 25vmax;
+    margin-left: 5vmax;
+    margin-top: 7vmax;
+    border-radius: 2vmax;
+}
+
+
+.page2  .photos .image2 img{
+    height:17vmax;
+    width: 25vmax;
+    margin-top: 7vmax;
+    border-radius: 2vmax;
+    margin-left: 8vmax;
+    
+}
+
+
+.page2 .photos .image3 img{
+    height:17vmax;
+    width: 25vmax;
+    margin-top: 7vmax;
+    border-radius: 2vmax;
+    margin-left: 8vmax;
+}
+
+
+
+
+
+/* ----------------PAGE 3----------------- */
+
+
+.page3{
+    width: 100%;
+    height: 100%;
+    /* border: 5px solid black; */
+}
+
+.page3 #p_heading{
+    margin-left: 33vmax;
+    /* margin-top: 3vmax; */
+    color: rgba(0, 0, 0, 0.589);
+    font-size: 4vmax;
+}
+
+.p1_content1{
+    display: flex;
+}
+
+.items1 img{
+    height: 20vmax;
+    width: 35vmax;
+    margin-left: 5vmax;
+    border-radius: 50% 50% 30% 30%;
+}
+
+.items1 h1{
+    font-size: 2vmax;
+    font-weight: 900;
+    margin-top: 1vmax;
+    margin-left: 10vmax;
+}
+
+.items1 p{
+    width: 20vmax;
+    margin-left: 10vmax;
+    font-size: 1.5vmax;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: rgba(137, 43, 226, 0.685);
+    margin-top: 1vmax;
+}
+
+.items1 h2{
+    margin-left: 10vmax;
+    color: coral;
+    margin-top: 1vmax;
+}
+
+.items2 img{
+    height: 20vmax;
+    width: 35vmax;
+    margin-left: 15vmax;
+    border-radius: 50% 50% 30% 30%;
+}
+
+#pasta {
+    font-size: 2vmax;
+    font-weight: 900;
+    margin-top: 1vmax;
+    margin-left: 20vmax;
+}
+
+#para1{
+    width: 20vmax;
+    margin-left: 20vmax;
+    font-size: 1.5vmax;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: rgba(137, 43, 226, 0.685);
+    margin-top: 1vmax;
+}
+
+#p_price{
+    margin-left: 20vmax;
+    color: coral;
+    margin-top: 1vmax;
+}
+
+
+
+
+/* --------------------PAGE 4--------------------- */
+
+
+.page4{
+    height: 100%;
+    width: 100%;
+    /* border: 5px solid yellowgreen; */
+    display: flex;
+}
+
+.p2_content2{
+    display: flex;
+}
+
+.items3 img{
+    height: 20vmax;
+    width: 35vmax;
+    margin-left: 5vmax;
+    margin-top: 5vmax;
+    border-radius: 50% 50% 30% 30%;
+}
+
+.items3 #nuggets{
+    font-size: 2vmax;
+    font-weight: 900;
+    margin-top: 1vmax;
+    margin-left: 10vmax;
+}
+
+.items3 #para2{
+    width: 20vmax;
+    margin-left: 10vmax;
+    font-size: 1.5vmax;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: rgba(137, 43, 226, 0.685);
+    margin-top: 1vmax;
+}
+
+.items3 #n_price{
+    margin-left: 10vmax;
+    color: coral;
+    margin-top: 1vmax;
+}
+
+
+
+
+
+.items4 img{
+    height: 20vmax;
+    width: 35vmax;
+    margin-left: 20vmax;
+    margin-top: 5vmax;
+    border-radius: 50% 50% 30% 30%;
+}
+
+.items4 #pizza{
+    font-size: 2vmax;
+    font-weight: 900;
+    margin-top: 1vmax;
+    margin-left: 25vmax;
+}
+
+.items4 #para3{
+    width: 20vmax;
+    margin-left: 25vmax;
+    font-size: 1.5vmax;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: rgba(137, 43, 226, 0.685);
+    margin-top: 1vmax;
+}
+
+.items4 #piz_price{
+    margin-left: 25vmax;
+    color: coral;
+    margin-top: 1vmax;
+}
